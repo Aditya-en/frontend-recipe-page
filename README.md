@@ -6,8 +6,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshots
 
-![](./screenshot_fullscreen.jpg)
-![](./screenshot_mobile.jpg)
+![](./screenshot_fullscreen.jpeg)
+![](./screenshot_mobile.jpeg)
 
 ### Links
 
