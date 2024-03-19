@@ -1,0 +1,149 @@
+:root{
+   --primary-color: hsla(14, 45%, 70%, 0.776);
+   --background-color: hsla(14, 45%, 36%);
+   --Dark-Raspberry: hsl(332, 51%, 32%);
+   --Dark-Charcoal: hsl(24, 5%, 18%);
+   --Rose-White: hsl(330, 100%, 98%);
+   --Wenge-Brown: hsl(30, 10%, 34%);
+   --Light-Grey: hsl(30, 18%, 87%);
+   --Eggshell: hsl(30, 54%, 90%);
+
+   --font-primary: "Young Serif", serif;
+   --font-weight: 400;
+   --font-secondary: "Outfit", sans-serif;
+
+}
+
+ 
+body{
+   padding: 0px;
+   margin: 0px;
+   display: flex;
+   background-color: var(--Eggshell);
+   justify-content: center;
+}
+main{
+   background-color: white;
+   padding: 3%;
+   margin-top: 8em;
+   margin-bottom: 5em;
+   border-radius: 2em;
+   line-height: 1em;
+   max-width: 50%;
+   overflow: hidden;
+
+}
+
+img{
+   border-radius: 1rem;
+   width: 100%;
+}
+p{
+   line-height: 1.5;
+}
+
+h1,h2{
+   font-family: var(--font-primary);
+   font-weight: var(--font-weight);
+}
+h1{
+   line-height: initial;
+}
+h2{
+   color: var(--background-color);
+   /* font-family: var(--font-secondary); */
+}
+.wrapper ul{
+   color: var(--Dark-Raspberry);
+   margin: 0;
+   padding: inherit;
+   padding-bottom: 0;
+}
+p,li{
+   /* margin: 0; */
+   font-family: var(--font-secondary);
+   line-height: 1.5;
+   padding-bottom: .5em;
+}
+p{
+   color: gray;
+}
+li span{
+   padding-left: 1rem;
+   color: rgba(0, 0, 0, 0.639);
+   font-weight: 600;
+}
+.wrapper{
+   /* padding: .5em; */
+   padding: 1em;
+   border-radius: .5em;
+   background-color: var(--Rose-White);
+}
+.wrapper h2{
+   margin: 0;
+   padding: 0;
+   color: var(--Dark-Raspberry);
+}
+.wrapper-ingredients ul {
+   padding-left: 1.5em;
+ }
+ 
+ .wrapper-ingredients li {
+   padding-left: 1.5em;
+   color: grey;
+ }
+ 
+ .wrapper-ingredients li::marker {
+   /* padding: 0px; */
+   color: var(--background-color); /* Set bullet color to red */
+ }
+ ol{
+   padding-left: 1.5em;
+ }
+ ol li span{
+   padding-left: 0px;
+ }
+ ol li{
+   padding-left: 1.5em;
+   color: grey;
+ }
+ li::marker{
+   color: var(--background-color);
+   font-weight: 600;
+ }
+
+ .table-container{
+   display: flex;
+   flex-direction: column;
+ }
+ .rows{
+   display: flex;
+   padding-inline: 1.5em;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.297);
+ }
+ .rows p{
+   flex: 1;
+ }
+ .rows :last-child{
+   font-weight: 600;
+   color: var(--background-color);
+ }
+@media only screen and (max-width:400px){
+   main{
+      max-width: 100%;
+      margin: 0px;
+      padding: 0px;
+      border-radius: 0px;
+   }
+   .container{
+      padding-inline: 1.5em;
+      padding-bottom: 1.5em;
+   }
+   img{
+      margin: 0;
+      border-radius: 0px;
+   }
+}
+
+
+
